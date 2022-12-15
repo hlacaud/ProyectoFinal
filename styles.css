@@ -11,6 +11,7 @@ input {
   width: 250px;
   height: 10%;
   margin-top: 18%;
+  border-radius: 5%;
 }
 .content {
   background-color: white;
