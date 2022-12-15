@@ -1,0 +1,31 @@
+header {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+}
+
+body {
+  background-color: white;
+}
+input {
+  width: 250px;
+  height: 10%;
+  margin-top: 18%;
+}
+.content {
+  background-color: white;
+  height: max-content;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.3em;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.gallery {
+  columns: 5 320px;
+  column-gap: 0.3em;
+}
